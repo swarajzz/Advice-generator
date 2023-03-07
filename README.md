@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/swarajzz/Advice-generator)
-- Live Site URL: [Add live site URL here](https://advice-generator-swaraj.netlify.app/)
+- Solution URL: [Solution](https://github.com/swarajzz/Advice-generator)
+- Live Site URL: [Live Site](https://advice-generator-swaraj.netlify.app/)
 
 ## My process
 
