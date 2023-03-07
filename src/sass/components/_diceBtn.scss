@@ -1,0 +1,20 @@
+.diceBtn {
+  height: 7rem;
+  width: 7rem;
+  border: none;
+  border-radius: 50%;
+  margin: 0 auto -7rem;
+
+  background: var(--neon-green);
+  transition: 0.2s all;
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.1;
+    box-shadow: 0 0 20px var(--neon-green);
+
+    @include respond(phone) {
+      scale: 1.2;
+    }
+  }
+}

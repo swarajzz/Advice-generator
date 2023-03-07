@@ -1,0 +1,32 @@
+.advice-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+  gap: 3rem;
+  transition: all 0.3s;
+
+  @include respond(tab-land) {
+    padding: 1rem;
+  }
+
+  &__heading {
+    font-size: 1.3rem;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3.4px;
+    justify-self: center;
+  }
+
+  &__quote {
+    // font-size: 2.7rem;
+    color: var(--light-cyan);
+    font-weight: 500;
+    text-align: center;
+    @include respond(phone) {
+      font-size: 3.4rem;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.divide-icon {
+  fill: var(--light-cyan);
+  margin-bottom: 2.8rem;
+
+  @include respond(tab-land) {
+    content: url("/images/pattern-divider-mobile.svg");
+  }
+}

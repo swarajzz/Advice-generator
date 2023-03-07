@@ -1,0 +1,29 @@
+.attribution {
+  font-size: 1.8rem;
+  background-color: var(--dark-grayish-blue);
+  width: 100%;
+
+  text-align: center;
+  position: absolute;
+  padding: 1rem;
+  bottom: 0;
+  word-spacing: 0.3rem;
+
+  @include respond(tab-port) {
+    font-size: 1.8rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: var(--light-cyan);
+    transition: all 0.3s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: var(--neon-green);
+    box-shadow: 0 2rem 3rem rgb(0, 0, 0, 0.4);
+    transform: rotate(5deg) scale(1.3);
+    transform: scale(1.2);
+  }
+}
