@@ -16,5 +16,5 @@
 .prettierignore
 
 .cache
-dist
+/dist
 node_modules

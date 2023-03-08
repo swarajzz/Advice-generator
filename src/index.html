@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A responsive advice generator built using HTML, CSS, JS, SASS, and parcel bundler. It simply fetches a random quote/advice from an API and displays it"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
@@ -20,6 +24,7 @@
     />
 
     <link rel="stylesheet" href="sass/main.scss" />
+    <script defer src="./js/script.js"></script>
 
     <title>Frontend Mentor | Advice generator app</title>
   </head>
@@ -46,8 +51,8 @@
         />
         <!-- </picture> -->
       </div>
-      <button class="diceBtn">
-        <img class="dice-icon" src="images/icon-dice.svg" alt="" />
+      <button class="diceBtn" aria-label="New-quote">
+        <img class="diceBtn__icon" src="images/icon-dice.svg" alt="Dice icon" />
       </button>
     </main>
 
@@ -64,5 +69,4 @@
       >.
     </footer>
   </body>
-  <script type="module" src="./js/script.js"></script>
 </html>
