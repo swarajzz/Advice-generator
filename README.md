@@ -15,8 +15,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -34,7 +32,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/swarajzz/Advice-generator)
 - Live Site URL: [Live Site](https://advice-generator-swaraj.netlify.app/)
 
 ## My process
